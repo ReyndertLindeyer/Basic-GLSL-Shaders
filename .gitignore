@@ -30,5 +30,6 @@
 *.app
 
 #Allow obj files that are models
+!cube.obj
 !sphere.obj
 !grassMultiple.obj
