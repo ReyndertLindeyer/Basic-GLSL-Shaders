@@ -13,7 +13,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{F2DCB53B-8983-41C9-844F-9845F3C1161A}</ProjectGuid>
     <RootNamespace>ComponentFramework</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -40,7 +40,7 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>C:\GameDev\SDL2-2.0.8\include;C:\GameDev\glew-2.1.0-win32\glew-2.1.0\include;C:\GameDev\SDL2_image-devel-2.0.3-VC\SDL2_image-2.0.3\include;$(IncludePath)</IncludePath>
+    <IncludePath>$(ProjectDir)\SDL2-2.0.8\include;$(ProjectDir)\glew-2.1.0-win32\include;$(ProjectDir)\SDL2_image-devel-2.0.3-VC\include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -50,7 +50,7 @@
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>C:\GameDev\SDL2-2.0.8\lib\x86\SDL2.lib;C:\GameDev\SDL2-2.0.8\lib\x86\SDL2main.lib;C:\GameDev\glew-2.1.0-win32\glew-2.1.0\lib\Release\Win32\glew32.lib;C:\Program Files (x86)\Windows Kits\10\Lib\10.0.17134.0\\um\x86\OpenGL32.lib;C:\GameDev\SDL2_image-devel-2.0.3-VC\SDL2_image-2.0.3\lib\x86\SDL2_image.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>$(ProjectDir)\SDL2-2.0.8\lib\x86\SDL2.lib;$(ProjectDir)\SDL2-2.0.8\lib\x86\SDL2main.lib;$(ProjectDir)\glew-2.1.0-win32\lib\Release\Win32\glew32.lib;C:\Program Files (x86)\Windows Kits\10\Lib\10.0.17134.0\\um\x86\OpenGL32.lib;$(ProjectDir)\SDL2_image-devel-2.0.3-VC\lib\x86\SDL2_image.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <SubSystem>Console</SubSystem>
     </Link>
   </ItemDefinitionGroup>

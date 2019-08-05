@@ -28,7 +28,7 @@ Scene1::Scene1(Window& windowRef):Scene(windowRef) {
 	// whatObject 2 is for a sphere that looks cartoony   //
 	// whatObject 3 is for moving grass                   //
 	////////////////////////////////////////////////////////
-	whatObject = 2;
+	whatObject = 0;
 
 }
 
