@@ -28,3 +28,7 @@
 *.exe
 *.out
 *.app
+
+#Allow obj files that are models
+!sphere.obj
+!grassMultiple.obj
